@@ -1,7 +1,11 @@
 # NLP-Python-Beginners
 NLP-Natural Language Processing in Python for Beginners ISBN 9781803249193
 
+the worst course i have ever done
+
 ## Notes 
+
+https://pypi.org/
 
 ### Chapter 1
 Nothing of real value, it was an introduction to the instructors
@@ -126,3 +130,135 @@ pip install editdistance
 
 
 ### Chapter 12
+Language Modeling
+
+protects the probability of a sequence of words
+bi-gram, tri-gram & k-gram
+
+pip install dill
+using NLTK
+
+16 min to find there was an error :(
+
+
+### Chapter 13
+One hot 
+in this section in went over term Frequency (TFIDF)
+
+They left out the whole explanation of the loadCorpus() method
+def loadCorpus():
+    corpus = getData(subset = 'train',
+                    remove=('header','footer','quotes'),
+                    categories=['alt.atheism',
+                               'comp.graphics',
+                               'soc.religion.christian'])
+    return corpus
+
+
+
+i think i will need to redo this section
+
+
+### Chapter 14
+
+word cooccurrence matrix/
+term-term Matrix/
+Term-Context matrix
+
+each word is repersented in the number of deminsions for each document.
+if documents are increased or decreased every day these have to re calculated.
+
+uses a windows size to find words in the same context
+
+PPMI -> measure of word association
+
+PCA -> ????
+
+Latent Semantic Analysis -> straight PCA
+
+PCA ->
+SVD -> TruncatedSVD -> PCA
+
+
+### Chapter 15
+
+Word Semantics
+
+Cosine Similarity
+
+so again the lack of test data been used has caused issues.
+the data i used i feel was not a great selection
+
+could not really follow the examples and some of the code was not explained very well
+ill need to come back to this chapter again.
+
+currently thinking of just scrapping this video and moving on to something else.
+
+### Chapter 16
+Word2Vec,glove,fasttext
+
+word2vec -> static word embedding
+
+
+### Chapter 17
+
+Deep Learning using PyTorch
+
+why install conda?????
+
+
+### Chapter 18
+Deep Neural Network
+
+
+### Chapter 19
+
+Gradient Descent -> did not learning a whole pile in this one.
+so close on giving up
+
+
+### Chapter 20
+Hyperparameters
+
+NLP with Deep Learning DNN
+
+
+Its important where to start, 
+For convecx loss function this does not matter.
+
+in NN loss functions nearly always are not convex loss functions so this does matter.
+
+implementing dropout code does not work
+
+### Chapter 21
+
+RNN reoccuring Neural Networks is a function that takes a input and some history of the previos run
+
+fw(xt,ht-1)
+
+nothing else really in this chapter
+
+just went over some uses of RNN and that was all no code.
+
+### Chapter 22
+watch again and rewrite code with better names
+re wrote code, but still got getting the result i would like.
+
+### Chapter 23
+simple enough but was not working also.
+
+
+### Chapter 24
+RNN in PyTorch
+This was a waste of time i really hate this random numbers crap cannot see any real output.
+Why???????
+
+### Chapter 25
+Encoder - Decoder Model
+
+
+### Chapter 26
+
+Translation
+
+The final chapter
